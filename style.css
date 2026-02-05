@@ -241,7 +241,7 @@ body {
 /* juego */
 
 .game-section {
-    background-color: #00c8ffab;
+    background-color: #23a4c7ab;
     color:#c3ff00;
     padding: 80px 20px;
 }
@@ -254,7 +254,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 50px rgba(0, 255, 255, 0.5);
-    background-color: #00d0ffbc;
+    background-color: #00d0ff94;
 }
 
 #p5-canvas {
