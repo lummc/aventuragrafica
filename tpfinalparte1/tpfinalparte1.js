@@ -88,8 +88,19 @@ function mousePressed() {
     if (!musicFondo.isPlaying()) {
         musicFondo.setLoop(true);
         musicFondo.play();
+        handleClick(); 
     }
-
+function touchStarted() {
+    handleClick();  // La misma función
+    return false;  
+        }
+        function handleClick() {
+    // Aquí va tu lógica de click
+    // Ejemplo: verificar si se clickeó un botón
+    if (mouseX > 100 && mouseX < 300 && mouseY > 200 && mouseY < 250) {
+        // Comenzar juego
+    }
+}
     // Ajustar coordenadas del mouse según la escala
     let mx = mouseX / escala;
     let my = mouseY / escala;
