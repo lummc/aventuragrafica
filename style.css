@@ -214,7 +214,7 @@ body {
     font-size: 48px;
     margin-bottom: 40px;
     text-align: center;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #c3ff00;
     padding-bottom: 20px;
 }
 
@@ -241,8 +241,8 @@ body {
 /* juego */
 
 .game-section {
-    background-color: #1a0f0a;
-    color: #ffffff;
+    background-color: #00c8ffab;
+    color:#c3ff00;
     padding: 80px 20px;
 }
 
