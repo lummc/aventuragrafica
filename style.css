@@ -446,6 +446,173 @@ body {
 .card {
     color: #067aa1;
 }
+/* MÓVILES */
+
+/* Tablets (1024px y menos) */
+@media (max-width: 1024px) {
+    .winx-header h1 {
+        font-size: 48px;
+    }
+    
+    .btn-body1 {
+        right: 70%;
+    }
+    
+    .btn-body2 {
+        right: 40%;
+    }
+    
+    .btn-body3 {
+        right: 10%;
+    }
+    
+    .body-3 {
+        left: -150px;
+        width: 250px;
+    }
+}
+
+/* Móviles (768px y menos) */
+@media (max-width: 768px) {
+    
+    
+    .winx-header {
+        top: 20px;
+        left: 20px;
+    }
+    
+    .winx-header h1 {
+        font-size: 32px;
+    }
+    
+    
+    .bodies-background img {
+        object-position: top center;
+    }
+    
+   
+    .character-buttons {
+        display: none !important;
+    }
+    
+   
+    .scroll-indicator {
+        bottom: 20px;
+    }
+    
+    .scroll-indicator span {
+        font-size: 56px;
+    }
+    
+    
+    .content-section {
+        padding: 60px 20px;
+    }
+    
+    .content-section h2 {
+        font-size: 28px;
+    }
+    
+    .content-section h3 {
+        font-size: 22px;
+    }
+    
+    .content-section p {
+        font-size: 16px;
+    }
+    
+       .game-container {
+        border-width: 2px;
+        max-width: 100%;
+    }
+    
+    
+    .process-step {
+        padding-left: 20px;
+    }
+    
+    .step-number {
+        position: static;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .tech-items {
+        flex-direction: column;
+    }
+    
+    .tech-item {
+        min-width: 100%;
+    }
+    
+    .team-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-member {
+        min-width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+    }
+    
+    .member-avatar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+    }
+    
+   
+    .body-3 {
+        display: none;
+    }
+    
+    .project-info {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .winx-header h1 {
+        font-size: 24px;
+    }
+    
+    .content-section h2 {
+        font-size: 24px;
+    }
+    
+    .content-section h3 {
+        font-size: 18px;
+    }
+    
+    .content-section p {
+        font-size: 14px;
+    }
+    
+    .member-avatar {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .winx-section {
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .bodies-background img {
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .character-buttons {
+        display: block;
+    }
+}
 
 @media (max-width: 768px) {
     .winx-header h1 {
